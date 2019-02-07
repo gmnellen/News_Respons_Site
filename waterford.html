@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta name="description" content="Daily Planet news, local news!">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="G. Nellen">
+<meta charset="utf-8">
+
+<!-- viewport meta to reset iPhone inital scale -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Daily Planet News</title>
+
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+<!--link to jquery -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+
+	/* toggle nav */
+	$("#menu-icon").on("click", function(){
+		$("#mainNav").slideToggle();
+		$(this).toggleClass("active");
+	});
+
+});
+
+
+</script>
+</head>
+<body>
+
+<div id="wrapper">
+	<header>
+   	    
+		<ul id="utilityNav">
+			<li><a href=" ">e-Edition</a></li>
+			<li><a href=" ">Digital Subscription</a></li>			
+			<li><a href=" ">Advertise</a></li>
+			<li><a href=" ">Contact Us</a></li>
+			<li><a href=" ">Subscribe</a></li>
+			<li><a href=" ">Register</a></li>			
+			<li><a href=" ">Login</a></li>
+		</ul>
+      
+	<div id="logo">
+		<a  href="index.html"><img src="images/Daily_Planet_logo.png" width="350" height="125" alt="daily"/></a>
+	</div>
+		
+	<div id="search">
+		<img src="images/search.png" width="230" height="45" alt="search"/>
+	</div>
+        
+	<div id="temp">
+		<img src="images/cloudy.png" width="150" height="90" alt="daily"/>
+	</div>
+		
+	</header>
+    <!--End of header-->
+	
+	<!--Start of container-->
+	<div id="navigation_container">
+        <div class="rectangle">
+			
+			<!-- the navigation links -->
+			<nav >
+				<!--<div id="menu-icon">Menu
+				</div> -->
+				
+					<ul >
+						<li><a href="waterford.html ">&#10029;News</a></li>
+						<li><a href="">&#10029;Sports</a></li>
+						<li><a href=" ">&#10029;Business</a></li>
+						<li><a href="">&#10029;Food</a></li>
+						<li><a href="">&#10029;Entertainment</a></li>
+						<li><a href=" ">&#10029;Classifieds</a></li>
+						<li><a href="">&#10029;Jobs</a></li>
+					</ul>
+			</nav>
+		</div>
+	<!-- end container -->
+	</div>
+    
+
+    
+     <!-- start of mainColumn -->
+	<div id="mainColumn">
+		<div id="waterfordPic"><img src = "images/mos_lg.png" width:	"520" height="359" alt ="mos_lg"/></div>
+
+  	<p id="wtfdText">Waterford - Demolition of the fire-destroyed building that formerly housed Martini Mo’z bar in has been postponed while the Wisconsin Department of Natural Resources awaits testing results from the building.
+
+The building at 201 E. Main Street in Waterford was severely damaged by a fire Jan. 3.
+
+Following the fire, the owner of the building was given until Wednesday to demolish the building.
+
+But that deadline has been moved back, said Waterford Village Administrator Rebecca Ewald.
+
+The DNR conducted asbestos and abatement testing on the building last week and the property owners are still awaiting the results and approval to demolish the structure, she said. Once the DNR approval is received the demolition permit may be applied for, she said.
+
+She anticipates demolition will occur next week, although no final date has been set.</p><br><br>
+
+<div id = "video">
+<div class="video-container">
+				<iframe width="560" height="315" src="http://www.youtube.com/embed/YFUaNSoS0LE" frameborder="0" allowfullscreen></iframe>
+			</div>
+            </div>
+			
+    </div>    
+           
+	<!--Start of rightColumn-->
+	<div id="rightColumn2">
+		<div id = "rightColumnAd"><img src="images/ad_bank.png"width="300" height="250" alt="bank"/>
+        </div>
+            
+        <div id = "rightColumnAd"><img src="images/ad_job.png"width="300" height="250" alt="bank"/>
+        </div>
+            
+        <div id = "rightColumnAd"><img src="images/ad_american.png"width="300" height="250" alt="bank"/>
+        </div>
+		
+        <div id = "rightColumnAd"><img src="images/ad_chipped.png"width="300" height="250" alt="bank"/>
+        </div>
+ 	</div>
+	<!--end of rightColumn-->
+    <!--Start of footer-->
+  <footer>
+	<div class="col">
+  <h6>Daily Planet</h6>
+  <ul id="navFoot">
+    <li><a href="waterford.html">News</a></li>
+    <li><a href="index.html">Sports</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Food</a></li>
+    <li><a href="#">Entertainment</a></li>
+    <li><a href="#">Classifieds</a></li>
+    <li><a href="#">Jobs</a></li>
+  </ul>
+</div>
+<div class="col">
+  <h6>Connect with us</h6>
+  <ul id="navFoot">
+    <li><a href="https://www.facebook.com "><img src="images/facebook.png"width="25" height="25" alt="facebook"/>&nbsp;Facebook</a></li>
+    <li><a href="https://accounts.google.com "><img src="images/google.png"width="25" height="25" alt="google"/>&nbsp;Google Plus</a></li>
+    <li><a href="http://www.linkedin.com/ "><img src="images/linkedin.png"width="25" height="25" alt="linkedin"/>&nbsp;LinkedIn</a></li>
+    <li><a href="https://www.pinterest.com/ "><img src="images/pinterest.png"width="25" height="25" alt="pinterest"/>&nbsp;Pinterest</a></li>
+    <li><a href="https://twitter.com "><img src="images/twitter.png"width="25" height="25" alt="tweet"/>&nbsp;Twitter</a></li>
+    <li><a href="http://www.youtube.com/ "><img src="images/youtube_sd.png"width="25" height="25" alt="utube"/>&nbsp;YouTube</a></li>
+   <li><a href="#"></a></li>
+  </ul>
+</div>
+<div class="col">
+  <h6>Contact us</h6>
+  <ul id="navFoot">
+   
+    <li><a href="#'">Phone Numbers</a></li>
+    <li><a href="#'">Manage Accounts</a></li>
+    <li><a href="#'">Advertising</a></li>
+    <li><a href="#'">Digital Access FAQ</a></li>
+    <li><a href="#'">Place Ad</a></li>
+    <li><a href="#'"></a></li>
+    <li><a href="#'"></a></li>
+  </ul>
+</div>
+    
+</footer>
+    <!--end of footer-->
+    
+    
+    </div>
+
+
+<!-- End of wraper -->
+</div>
+</body>
+</html>

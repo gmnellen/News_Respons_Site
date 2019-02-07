@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+<meta name="description" content="Daily Planet news, local news!">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="G. Nellen">
+<meta charset="utf-8">
+
+<!-- viewport meta to reset iPhone inital scale -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Daily Planet News</title>
+
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+<!--link to jquery -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	/* toggle nav */
+	$("#menu-icon").on("click", function(){
+		$("#mainNav").slideToggle();
+		$(this).toggleClass("active");
+	});
+	
+	$(".fancybox").fancybox();
+
+});
+
+
+</script>
+</head>
+<body>
+	<!--Start of wrapper-->
+	<div id="wrapper">
+	
+		<header>
+   	    	<ul id="utilityNav">
+				<li><a href=" ">e-Edition</a></li>
+				<li><a href=" ">Digital Subscription</a></li>			
+				<li><a href=" ">Advertise</a></li>
+				<li><a href=" ">Contact Us</a></li>
+				<li><a href=" ">Subscribe</a></li>
+				<li><a href=" ">Register</a></li>			
+				<li><a href=" ">Login</a></li>
+			</ul>
+      
+			<div id="logo">
+				<a  href="index.html"><img src="images/Daily_Planet_logo.png" width="350" height="125" alt="daily"/></a>
+			</div>
+		
+			<div id="search">
+				<img src="images/search.png" width="230" height="45" alt="search"/>
+			</div>
+            
+            <div id="menu-icon">Menu</div>
+        
+			<div id="temp">
+				<img src="images/cloudy.png" width="150" height="90" alt="daily"/>
+			</div>
+		<!--End of header-->
+		</header>
+	
+		<!--Start of container-->
+		<div id="navigation_container">
+			<div class="rectangle">
+			
+				<!-- the navigation links -->
+				<nav id="nav-wrap" >
+					 
+<!--				 <div id="menu-icon">Menu</div>
+-->						<ul id="mainNav">
+							<li><a href="waterford.html ">&#10029;News</a></li>
+							<li><a href="">&#10029;Sports</a></li>
+							<li><a href=" ">&#10029;Business</a></li>
+							<li><a href="">&#10029;Food</a></li>
+							<li><a href="">&#10029;Entertainment</a></li>
+							<li><a href=" ">&#10029;Classifieds</a></li>
+							<li><a href="">&#10029;Jobs</a></li>
+						</ul>
+				</nav>
+			</div>
+		<!-- end container -->
+		</div>
+		
+		 	<!-- Start of leftColumn -->
+		<div id = "leftColumn">
+			<ul class="tabs">
+				<li>
+					<input type="radio" checked name="tabs" id="tab1">
+					<label for="tab1">Waterford</label>
+					<div id="tab-content1" class="tab-content animated fadeIn">
+						<a href="waterford.html"><img src="images/mos.png"width="290" height="201" alt="mos"/></a>
+						<h2>Racine County Sheiffs deputy is parked next to Martini Mo'z in the Village of Waterford on January 6, 2014, after a fire on Friday, January 6, 2014 destroyed the bar. </h2>
+					</div>
+				</li>
+		
+				<li>
+					<input type="radio" name="tabs" id="tab2">
+					<label for="tab2">Brewers</label>
+					<div id="tab-content2" class="tab-content animated fadeIn">
+						<img src="images/brew_dog.png"width="320" height="213" alt="dog"/>
+						<h2>A stray pup wandering around the Milwaukee Brewers training facility in Arizona has become the teams latest unofficial team mascot. Named "Hank" the former Brewer Hank Aaron.</h2>
+					</div>
+				</li>
+		
+				<li>
+					<input type="radio" name="tabs" id="tab3">
+					<label for="tab3">Winter</label>
+					<div id="tab-content3" class="tab-content animated fadeIn">
+						<img src="images/winter.png"width="320" height="196" alt="winter"/>
+						<h2>It’s a good time to look back on how bad our winter has been. After all, we’ve made it this far.</h2>
+					</div>
+				</li>
+			</ul>
+		
+			<div id="homepic">
+				<img src="images/ad_homeshow.png" width="300" height="600" alt="home"/>
+			</div>
+		<!--End of leftColumn-->
+		</div>
+   
+		<!--start of centerColumn-->
+		<div id="centerColumn">
+			<h1> Lawmakers soften sand mine bill to win support</h1>
+				<div id="divide"><img src="images/divider.png" width="200" height="9" alt="divide"/></div>
+			<h1> Couple arrested, accused of forging prescriptons for pain killers</h1>
+        
+				<div id="divide"><img src="images/divider.png" width="200" height="9" alt="divide"/></div>
+			<h1> March Comes in Like a Lion!</h1>
+				<div id="divide"><img src="images/divider.png" width="200" height="9" alt="divide"/></div>
+			<h1>Tomahawk mail carrier attacked on route.</h1>
+        
+				<div id="divide"><img src="images/divider.png" width="200" height="9" alt="divide"/></div>
+			<h1> Number of Village Water Main breaks breaks record, keeps rising!</h1>
+        
+				<div id="divide"><img src="images/divider.png" width="200" height="9" alt="divide"/></div>
+			<h1>Extension requested for Kenosha casino decision</h1>
+        
+				<div id="divide"><img src="images/divider.png" width="200" height="9" alt="divide"/></div>
+        
+				<div id="pics">
+                <a class="fancybox" rel="group" href="images/uk.png"><img src="images/uk.png" alt="uk" /></a>
+					
+				</div>
+			<h2>Ukraine crisis continues as Russian troops allegedly take control of key airports </h2> 
+			
+				<div id="divide">
+					<img src="images/divider.png" width="200" height="9" alt="divide"/>
+				</div>
+			
+				<div id="pics"> 
+                <a class="fancybox" rel="group" href="images/mitchell.png"><img src="images/mitchell.png" alt="school" /></a>       
+					
+				</div>
+			
+			<h2>Photos: Early morning fire damages Mitchell Elementary </h2>
+			
+				<div id="divide">
+					<img src="images/divider.png" width="200" height="9" alt="divide"/>
+				</div>
+            
+		<!--end of centerColumn-->    
+		</div>	
+
+		<!--Start of rightColumn-->
+		<div id ="rightColumn">
+
+			<div id = "rightColumnAd">
+				<img src="images/ad_bank.png"width="300" height="250" alt="bank"/>
+            </div>
+            
+            <div id = "entertainment">
+				<h5>Entertainment: </h5>
+					<img src="images/flash.png"width="66" height="66" alt="flash"/>
+				<div id = "info">Flashdance<br> Wednesday, March 10, 7:30pm <br>Marcus Center Uhlein Hall
+				</div><br>
+					<img src="images/shenYun.png"width="66" height="66" alt="flash"/>  
+				<div id = "infoShen">Shen Yun 2014<br> Wednesday, March 10, 7:30pm <br>Milwaukee Theatre
+				</div>  
+ 
+            </div>
+            
+            <div id = "entertainment">
+				<h5>Food: </h5>
+					<img src="images/olive.png"width="300" height="200" alt="olive"/> 
+						<p>U.S. Olive Oil producers press for import standards. </p>
+            </div>
+            
+            <div id = "rightColumnAd">
+				<img src="images/ad_chipped.png"width="300" height="250" alt="bank"/>
+            </div>
+		<!--end of rightColumn-->
+		</div>
+	
+<footer>
+	<div class="col">
+  <h6>Daily Planet</h6>
+  <ul id="navFoot">
+    <li><a href="waterford.html">News</a></li>
+    <li><a href="index.html">Sports</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Food</a></li>
+    <li><a href="#">Entertainment</a></li>
+    <li><a href="#">Classifieds</a></li>
+    <li><a href="#">Jobs</a></li>
+  </ul>
+</div>
+<div class="col">
+  <h6>Connect with us</h6>
+  <ul id="navFoot">
+    <li><a href="https://www.facebook.com "><img src="images/facebook.png"width="25" height="25" alt="facebook"/>&nbsp;Facebook</a></li>
+    <li><a href="https://accounts.google.com "><img src="images/google.png"width="25" height="25" alt="google"/>&nbsp;Google Plus</a></li>
+    <li><a href="http://www.linkedin.com/ "><img src="images/linkedin.png"width="25" height="25" alt="linkedin"/>&nbsp;LinkedIn</a></li>
+    <li><a href="https://www.pinterest.com/ "><img src="images/pinterest.png"width="25" height="25" alt="pinterest"/>&nbsp;Pinterest</a></li>
+    <li><a href="https://twitter.com "><img src="images/twitter.png"width="25" height="25" alt="tweet"/>&nbsp;Twitter</a></li>
+    <li><a href="http://www.youtube.com/ "><img src="images/youtube_sd.png"width="25" height="25" alt="utube"/>&nbsp;YouTube</a></li>
+   <li><a href="#"></a></li>
+  </ul>
+</div>
+<div class="col">
+  <h6>Contact us</h6>
+  <ul id="navFoot">
+   
+    <li><a href="#'">Phone Numbers</a></li>
+    <li><a href="#'">Manage Accounts</a></li>
+    <li><a href="#'">Advertising</a></li>
+    <li><a href="#'">Digital Access FAQ</a></li>
+    <li><a href="#'">Place Ad</a></li>
+    <li><a href="#'"></a></li>
+    <li><a href="#'"></a></li>
+  </ul>
+</div>
+    
+</footer>
+	
+	<!--End of wrapper-->
+	</div>
+</body>
+</html>
